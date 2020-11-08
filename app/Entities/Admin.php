@@ -3,8 +3,9 @@
 namespace App\Entities;
 
 use App\Repositories\UserRepository;
+use App\Entities\IUser;
 
-class Admin
+class Admin implements IUser
 {
   private $data;
 

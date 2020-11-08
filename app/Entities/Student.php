@@ -3,8 +3,9 @@
 namespace App\Entities;
 
 use App\Repositories\UserRepository;
+use App\Entities\IUser;
 
-class Student
+class Student implements IUser
 {
   private $data;
 
