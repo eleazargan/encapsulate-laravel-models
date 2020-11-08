@@ -24,6 +24,6 @@ class UserRepository
   {
     $users = User::query()->paginate(15);
 
-    return $user;
+    return $users;
   }
 }
